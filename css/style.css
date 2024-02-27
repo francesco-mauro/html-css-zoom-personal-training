@@ -5,24 +5,24 @@
     box-sizing: border-box;
 }
 
-/* nell'ispector me lo prende... non capisco perchè */
-.padding-50-px{
-    padding-top: 50px;
+.main-container{
+    max-width: 1900px;
 }
 
+/* <!-- galleria --> */
 .galleria {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: flex-start;
     overflow-y: scroll; 
     gap: 5px;
     padding: 10px;
-    border: 1px solid grey;
+    padding-top: 50px;
     height: calc(100vh - 100px);
-
+    
     /* debug */
     background-color: aquamarine;
+    border: 10px solid black;
   }
   
   .galleria img {
