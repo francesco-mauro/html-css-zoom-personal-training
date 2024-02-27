@@ -9,6 +9,17 @@
   max-width: 1900px;
 }
 
+/* COMMONS */
+/* colors */
+.background-white {
+  background-color: white;
+}
+
+.small-cube {
+  height: 40px;
+  width: 40px;
+}
+
 /* top-buttons */
 .top-buttons {
   position: absolute;
@@ -23,9 +34,9 @@
   background-color: red;
 }
 
-.top-buttons div{
-background-color: grey;
-padding: 10px;
+.top-buttons div {
+  background-color: grey;
+  padding: 10px;
 }
 
 /* <!-- galleria --> */
@@ -36,8 +47,7 @@ padding: 10px;
   justify-content: space-around;
   overflow-y: scroll;
   gap: 5px;
-  padding: 10px;
-  padding-top: 70px;
+  padding: 70px 20px 0;
   height: calc(100vh - 100px);
 
   /* debug */
@@ -59,12 +69,43 @@ padding: 10px;
   background-color: rebeccapurple;
 }
 
-.mic-vid{
+.mic-vid {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding-left: 30px;
+  width: calc(100%/4);
+
+  /* debub */
+  /* min-height: 80%; */
   background-color: aqua;
-  width: calc(100%/3);
-  
+  border: 3px solid orange;
+}
+
+.center-bottom-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: black;
+  width: calc(100%/2);
+
   /* debub */
   /* min-height: 80%; */
   border: 3px solid orange;
-  padding: 15px;
+}
+
+.end-recording {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+  background-color: red;
+  width: calc(100%/4);
+  text-align: center;
+  line-height: 100px;
+
+  /* debub */
+  /* min-height: 80%; */
+  border: 3px solid orange;
 }
