@@ -5,3 +5,26 @@
     box-sizing: border-box;
 }
 
+/* nell'ispector me lo prende... non capisco perchè */
+.padding-50-px{
+    padding-top: 50px;
+}
+
+.galleria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    overflow-y: scroll; 
+    gap: 5px;
+    padding: 10px;
+    border: 1px solid grey;
+    height: calc(100vh - 100px);
+
+    /* debug */
+    background-color: aquamarine;
+  }
+  
+  .galleria img {
+    width: calc((100%/7) - 5px);
+  }
