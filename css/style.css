@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+a{
+  text-decoration: none;
+  text-decoration: inherit;
+}
+
 .main-container {
   max-width: 1900px;
 }
@@ -44,10 +49,11 @@
   z-index: 9999;
 }
 
-.top-buttons div {
+.top-buttons a {
   border-radius: 10px;
   background-color: var(--grigio-zoom);
   padding: 10px;
+  color: white;
 }
 
 /* <!-- galleria --> */
