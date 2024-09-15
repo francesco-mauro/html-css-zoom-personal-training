@@ -11,19 +11,12 @@ HTML5: For structuring the page.
 CSS3: For layout, styling, and responsive design.
 Font Awesome: For the control icons in the footer.
 JavaScript (Optional): Placeholder for adding further interactive functionality, such as button actions or live image updating.
+
 File Structure
 index.html: The main HTML file containing the page structure.
 css/style.css: The CSS file for styling and responsiveness.
 Font Awesome: Linked externally from a CDN for easy access to icons.
-How to Use
-Clone this repository to your local machine:
 
-bash
-Copy code
-git clone https://github.com/yourusername/zoom-themed-exercise.git
-Open index.html in your browser to view the web page.
-
-Optionally, customize the CSS styles or add JavaScript for further functionality.
 
 Credits
 Font Awesome: Icons used in the footer control bar.
